@@ -1,22 +1,31 @@
-# Getting Started with Create React App
+## Задание на React
+Вывод списка пользователей из предоставленного JSON
+У каждого пользователя есть кнопка "Смотреть посты"
+Нажатие на кнопку открывает модальное окно, в котором выводятся все посты данного пользователя
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--Установка-->
+## Установка и запуск andireact
 
-## Available Scripts
+1. Клонирование репозитория 
 
-In the project directory, you can run:
+```git clone https://github.com/OkulusDev/Oxygen.git```
 
-### `npm start`
+2. Переход в директорию Oxygen
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```cd Oxygen```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Создание виртуального окружения
 
-### `npm test`
+```python3 -m venv venv```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Активация виртуального окружения
 
-### `npm run build`
+```source venv/bin/activate```
+
+5. Установка зависимостей
+
+```pip3 install -r requirements.txt```
+
+6. Запуск скрипта для демонстрации возможностей Oxygen
+
+```python3 oxygen.py --help```
